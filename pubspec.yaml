@@ -11,10 +11,27 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  # flutter_localizations:
+  #   sdk: flutter
 
   cupertino_icons: ^1.0.2
-  flutx: ^0.1.2
+  lucide_icons: ^0.257.0
+  google_fonts: ^4.0.4
+
+  provider: ^6.1.1
+  # shimmer: ^3.0.0
+  get: ^4.6.6
+
+  #firebase
   firebase_core: ^2.23.0
+  shared_preferences: ^2.2.2
+  # firebase_messaging: ^14.7.5
+  # firebase_auth: ^4.14.1
+  # cloud_firestore: ^4.13.2
+  # firebase_storage: ^11.5.2
+
+  # image_picker: ^1.0.4
+  # http: ^0.13.6
 
 dev_dependencies:
   flutter_test:
@@ -24,3 +41,7 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+  assets:
+    # Profiles
+    - assets/images/profile/
